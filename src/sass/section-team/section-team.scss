@@ -1,0 +1,165 @@
+.section-team{ 
+
+    color: #333333; 
+  
+    font-family: main-font; 
+  
+    padding: 48px 0 80px; 
+  
+  } 
+  
+  .team__subtitle{ 
+  
+    max-width: 82%; 
+  
+    margin: 0 auto; 
+  
+    text-align: center; 
+  
+    margin-bottom: 90px; 
+  
+    } 
+  
+    .team__list{ 
+  
+      display: flex; 
+  
+      flex-wrap: wrap; 
+  
+    } 
+  
+    .team__item{ 
+  
+      position: relative; 
+  
+    } 
+  
+    .team__item:not(:nth-of-type(3n)){ 
+  
+      margin-right: 30px; 
+  
+    } 
+  
+    .social__list{ 
+  
+      display: flex; 
+  
+    } 
+  
+    .social__item:not(:last-child){ 
+  
+      margin-right: 1px; 
+  
+    } 
+  
+    .social__link{ 
+  
+      display: flex; 
+  
+      justify-content: center; 
+  
+      align-items: center; 
+  
+      background-color: #fce38a; 
+  
+      width: 56px; 
+  
+      height: 56px;     
+  
+    } 
+  
+    .social_icon{ 
+  
+      width: 26px; 
+  
+      height: 26px; 
+  
+      fill: #f38181; 
+  
+        } 
+  
+   .social__link:hover{ 
+  
+  background-color: #f38181; 
+  
+   }      
+  
+  .social__link:hover .social_icon{ 
+  
+    fill: #ffffff;
+  
+  } 
+  
+  .team__item-box{ 
+  
+    position: relative; 
+  
+    margin-bottom: 30px; 
+  
+  } 
+  
+  .team__item-overley{ 
+  
+    position: absolute; 
+  
+    display: flex; 
+  
+    justify-content: center; 
+  
+    align-items: center; 
+  
+    left: 0; 
+  
+    top: 0; 
+  
+    width: 100%; 
+  
+    height: 100%; 
+  
+    background-image: linear-gradient( 
+  
+      rgba(243, 129, 129, 0.9), 
+  
+      rgba(252, 227, 138, 0.9) 
+  
+    ); 
+  
+    visibility: hidden; 
+  
+    opacity: 0; 
+  
+  } 
+  
+  .team__item-box:hover .team__item-overley{ 
+  
+  visibility: visible; 
+  
+  opacity: 1; 
+  
+  } 
+  
+  .team__item-box:hover{ 
+  
+    transform: translate(-10px, -10px); 
+  
+    box-shadow: 10px 10px 0 #95e1d3; 
+  
+  } 
+  
+  .team__item-title{ 
+  
+    margin-bottom: 12px; 
+  
+    text-align: center; 
+  
+  } 
+  
+  .team__item-subtitle{ 
+  
+    font-weight: 300; 
+  
+    font-style: italic; 
+  
+    text-align: center; 
+  
+  } 
